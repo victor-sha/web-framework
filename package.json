@@ -9,8 +9,8 @@
     "axios": "^0.19.0"
   },
   "scripts": {
-    "start:db": "json-server -w db.json",
-    "statrt:parcel": "parcel index.html"
+    "start:db": "json-server -w db.json --port 3004",
+    "start:parcel": "parcel index.html"
   },
   "author": "",
   "license": "ISC",

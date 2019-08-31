@@ -46,7 +46,15 @@ export class User {
         })
   }
 
-  save(): void {
-    const user = this.data;
-  }
+  // save(): void {
+  //   const user = this.data;
+    
+  //   if (this.get('id')) {
+  //     axios.put(`http://localhost:3004/users/${this.get('id')}`, 
+  //       user
+  //     )
+  //   } else {
+  //     axios.post(`http://localhost:3004/users`, user)
+  //   }
+  // }
 }

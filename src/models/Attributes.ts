@@ -9,4 +9,8 @@ export class Attributes<T> {
     set = (update: T): void => {
         this.data = {...this.data, ...update};
     };
+
+    getAll = (): T => {
+        return this.data;
+    }
 }
